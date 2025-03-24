@@ -1,11 +1,14 @@
 /* This are comments */
 
+body {
+  font-family: 'Plus Jakarta Sans';
+}
+
 #page-wrapper { 
     width: 100%;
     max-width: 1040px;
     margin: 0px auto;
     height: fit-content;
-    font-family: 'Plus Jakarta Sans';
 }
 
 header {
@@ -236,11 +239,6 @@ footer .social-links a {
   padding: 0 0 1px 0;
   border-bottom: 1px solid #5c7580;
 }/* Tablet Screen - max-width: 768px */
-
-
-header {
-  border: red solid 1px;
-}
 
 
 @media (max-width: 745px) {
