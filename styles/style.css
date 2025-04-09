@@ -241,18 +241,12 @@ footer .social-links a {
 }/* Tablet Screen - max-width: 768px */
 
 
+#mobile-menu {
+  display: none;
+}
+
 @media (max-width: 745px) {
   .menu { display: none; }
-
-  .banner {
-    width: 80%;
-  }
-
-  .works-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
 }
 
 @media (max-width: 453px) {
